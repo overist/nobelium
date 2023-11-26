@@ -1,0 +1,22 @@
+{
+    "NAV": {
+      "INDEX": "홈",
+      "RSS": "RSS 피드",
+      "SEARCH": "검색",
+      "ABOUT": "소개"
+    },
+    "PAGINATION": {
+      "PREV": "이전",
+      "NEXT": "이후"
+    },
+    "POST": {
+      "BACK": "뒤로가기",
+      "TOP": "최상단으로"
+    },
+    "PAGE": {
+      "ERROR_404": {
+        "MESSAGE": "요청하신 페이지를 찾을 수 없습니다."
+      }
+    }
+  }
+  
