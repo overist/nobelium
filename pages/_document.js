@@ -115,6 +115,14 @@ class MyDocument extends Document {
             }
           `}
           </style>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6EWV1WZBJ"></script>
+          <script>
+            {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+
+            gtag('config', 'G-N6EWV1WZBJ');`}
+          </script>
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
