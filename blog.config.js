@@ -1,26 +1,26 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
+  title: 'Hack Insight',
+  author: 'overist',
+  email: 'wj@over.ist',
   link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'sans-serif', // ['sans-serif', 'serif']
+  description: 'overist\'s blog',
+  lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  timezone: 'Asia/Seoul', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
+  appearance: 'light', // ['light', 'dark', 'auto'],
+  font: 'noto-sans', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
-  postsPerPage: 7,
-  sortByDate: false,
+  since: '', // If leave this empty, current year will be used.
+  postsPerPage: 10,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app/overist\'s%20blog.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg', // The link to generate OG image, don't end with a slash
+  socialLink: '',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['overist', 'blog', 'notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
