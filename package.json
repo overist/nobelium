@@ -13,7 +13,7 @@
     "url": "http://craigary.net"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "export NOTION_PAGE_ID=8b7bc3ce865a4f66b4116a742e36d8f5 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "axios": "^1.6.1",
-    "canvas": "^2.11.2",
+    "canvas": "^1.6.5",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.10",
     "feed": "^4.2.2",
